@@ -6,7 +6,7 @@ A four-dashboard Tableau project that analyzes 9,183 priced Austin Airbnb listin
 
 > **Note on the main metric:** The dataset has no bookings, occupancy, revenue or profit data. Guest activity is measured with **reviews per month, used as a proxy for demand**. Every finding is labeled that way, and none of them claim earnings or ROI.
 
-**[Read the full report (PDF)](report/Austin_Airbnb_Investment_Analysis.pdf)**
+**[View the interactive dashboards on Tableau Public](https://public.tableau.com/views/AustinAirBnB_Invest_Opp/1_InvestmentOverview)** · **[Read the full report (PDF)](report/Austin_Airbnb_Investment_Analysis.pdf)**
 
 ---
 
@@ -42,7 +42,7 @@ Listings by host size, the top 15 hosts, the share of each ZIP run by large oper
 ![Competitive Landscape](images/3_competitive_landscape.png)
 
 ### 4. Property Optimization
-Activity by room type, by room type within each ZIP, and a price × minimum-night heat map.
+Activity by room type, by room type within the 10 most active ZIPs, and a price × minimum-night heat map (n = number of listings in each box).
 
 ![Property Optimization](images/4_property_optimization.png)
 
@@ -90,7 +90,7 @@ Large Operator Share      = Large Operator Listings / Listing Count
 
 ## Tools
 
-Tableau Cloud: calculated fields, LOD expressions, table calculations, Top N and condition filters, reference lines, dashboard design.
+Tableau Cloud, Tableau Desktop and Tableau Public: calculated fields, LOD expressions, table calculations, Top N and condition filters, reference lines, dashboard design.
 
 ## Author
 
